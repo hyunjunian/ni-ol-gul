@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>그루퍼 파일러</title>
+      <link href="https://ovenapp.io/static/package/view.min.css?1459151953564" rel="stylesheet" type="text/css">
+      <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+      <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <%= csrf_meta_tags %>
+   </head>
+
+   <body>
+      <div class = "container" style = "padding-top:20px;">
+         <%= yield %>
+      </div>
+   </body>
+
+</html>
